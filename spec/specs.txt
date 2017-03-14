@@ -1,0 +1,2 @@
+Specifications and documents for programming.
+程式範例說明、介接規格
