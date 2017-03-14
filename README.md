@@ -11,7 +11,7 @@ Openid Connect(OIDC) Examples and Documents for Education Bureau, Taiwan.
 
 # 目錄說明
   - spec  介接規則文件、程式說明文件
-  - doc 
+  - doc  申請書
   - example 介接範例程式：JAVA PHP C#.NET Python
  
 教育部 OPENID CONNECT 目的是整合所有師生帳號成為單一帳號系統，各系統的介接文件方式說明。
