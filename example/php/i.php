@@ -1,2 +1,2 @@
 <?php 
-echo "r";
+echo "WWW TEST_OK";
