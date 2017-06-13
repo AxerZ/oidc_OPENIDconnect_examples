@@ -1,4 +1,6 @@
 <?php
+session_start();
+
 //驗證 access token
 if( !isset($_SESSION['access_token'])){
   die ("無存取用權杖，無法取回使用者資料！");
@@ -7,7 +9,6 @@ if( !isset($_SESSION['access_token'])){
 //取回access token
 include "config.php";
 include "library.class.php";
-
 $obj= new openid();
 
 $token_ep=USERINFO_ENDPOINT;

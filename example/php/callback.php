@@ -29,8 +29,8 @@ if( !$acctoken || !isset($acctoken->access_token) ) {
 }
 // 把access token, id_token記到session中
 // 未來需要取得其他scope再用此access token 來做
-$_SESSION['access_token']= $acctoken->access_token;
-
+print $_SESSION['access_token']= $acctoken->access_token;
+print "<br>";
 // id_token也可以在此驗證，不記入session
-$_SESSION['id_token']= $acctoken->id_token;
+print $_SESSION['id_token']= $acctoken->id_token;
 
